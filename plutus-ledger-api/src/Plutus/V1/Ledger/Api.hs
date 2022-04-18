@@ -119,7 +119,7 @@ import Control.Monad.Except
 import Control.Monad.Writer
 import Data.Bifunctor
 import Data.ByteString.Lazy (fromStrict)
-import Data.ByteString.Short
+import Data.ByteString.Short hiding (singleton)
 import Data.Coerce (coerce)
 import Data.Either
 import Data.SatInt
